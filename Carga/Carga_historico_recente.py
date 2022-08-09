@@ -2,7 +2,8 @@ from Funcoes.SQL_CON import Conn, Db_insert
 import pandas as pd
 from datetime import date
 from Funcoes.BUSCA_CVM import busca_informes_cvm
-
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 conexao = Conn()
 # Verificando ultimo mes na base
