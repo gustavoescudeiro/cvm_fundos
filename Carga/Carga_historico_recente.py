@@ -66,7 +66,7 @@ for date in list_dates:
         print(f"arquivo para data {date} carregado")
     except Exception as e:
         print(e)
-        continue
+        continue 
 
 
 
